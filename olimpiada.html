@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLIMPIADA</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <div class="start">
+        <h1>ABA OLIMPIADA!</h1>
+        <button oncontextmenu="return false" onclick="modal()" style="font-size: 5px; width: 40px; height: 40px;">посмотреть картинку веджеты</button>
+    </div>
+    
+
+    <main>
+        <div class="questions">
+            <div class="first">
+                <h2>НАЗОВИТЕ ПЕРСОНАЖА НА КАРТИНКЕ</h2>
+                <img style="width: 400px;" src="image/Rikka.jpg" alt="fixani internet">
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Rika</button>
+                    <button onclick="yes()" oncontextmenu="return false">Rikka</button>
+                    <button onclick="not()" oncontextmenu="return false">ishtar</button>
+                    <button onclick="not()" oncontextmenu="return false">yoruichi</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <h2>НАЗОВИТЕ ПЕРСОНАЖА НА КАРТИНКЕ</h2>
+                <img style="width: 400px;" src="image/akainu.jpg" alt="fixani internet">
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Jogo</button>
+                    <button onclick="not()" oncontextmenu="return false">Todo</button>
+                    <button onclick="yes()" oncontextmenu="return false">Akainu</button>
+                    <button onclick="not()" oncontextmenu="return false">Ace</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <h2>НАЗОВИТЕ ПЕРСОНАЖА НА КАРТИНКЕ</h2>
+                <img style="width: 400px;" src="image/Nokotan.webp" alt="fixani internet">
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Aizen</button>
+                    <button onclick="yes()" oncontextmenu="return false">Nokotan</button>
+                    <button onclick="not()" oncontextmenu="return false">Big Mom</button>
+                    <button onclick="not()" oncontextmenu="return false">Serval-Vegeta</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <h2>В КАКОМ РЕЖИМЕ ДАЮТ <br> БОЛЬШЕ ВСЕГО ОПЫТА</h2>
+                <div class="first-otvet">
+                    <button onclick="yes()" oncontextmenu="return false">Lives</button>
+                    <button onclick="not()" oncontextmenu="return false">FFA</button>
+                    <button onclick="not()" oncontextmenu="return false">Juggernaut</button>
+                    <button onclick="not()" oncontextmenu="return false">Teams</button>
+                </div>
+
+            <div class="first">
+                <h2>Чей это скилл: Inspire Courage</h2>
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Ishtar</button>
+                    <button onclick="not()" oncontextmenu="return false">Vegeta</button>
+                    <button onclick="not()" oncontextmenu="return false">Jiren</button>
+                    <button onclick="yes()" oncontextmenu="return false">Saber</button>
+            </div>
+
+            <div class="first">
+                <h2>Что удалили из ранкеда</h2>
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">баны</button>
+                    <button onclick="yes()" oncontextmenu="return false">рингтон</button>
+                    <button onclick="not()" oncontextmenu="return false">музыку</button>
+                    <button onclick="not()" oncontextmenu="return false">kergold21</button>
+            </div>
+
+            <div class="first">
+                <h2>Выберите лишнего персонажа</h2>
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Rukia</button>
+                    <button onclick="not()" oncontextmenu="return false">Yamamoto</button>
+                    <button onclick="yes()" oncontextmenu="return false">Kazuma</button>
+                    <button onclick="not()" oncontextmenu="return false">Starrk</button>
+            </div>
+
+            <div class="first">
+                <h2>Выберите лишнего персонажа</h2>
+                <div class="first-otvet">
+                    <button onclick="not()" oncontextmenu="return false">Dio</button>
+                    <button onclick="not()" oncontextmenu="return false">Yamamoto</button>
+                    <button onclick="yes()" oncontextmenu="return false">Zamasu</button>
+                    <button onclick="not()" oncontextmenu="return false">Madara</button>
+            </div>
+
+
+            <button oncontextmenu="return false" onclick="showScore()">показать результат</button>
+        </div>
+
+
+        
+    </main>
+
+    <div id="modal_container" class="modal-container">
+        <div class="modal">
+            <img src="image/epshtain.jpg" alt="">
+            <button onclick="zakrit()", oncontextmenu="return false">
+                Закрыть
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
