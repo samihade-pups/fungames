@@ -115,11 +115,15 @@ button {
 .red {
     background-color: rgb(214, 64, 64);
     transition: 600ms;
-    pointer-events: none;
+    
 }
 
 .green {
     background-color: rgb(71, 175, 71);
     transition: 600ms;
+
+}
+
+.noclick {
     pointer-events: none;
 }
