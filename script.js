@@ -12,11 +12,14 @@ function zakrit() {
 }
 
 function not() {
+    event.currentTarget.parentElement.classList.add('noclick')
     event.currentTarget.classList.add('red')
 
+    
 }
 
 function yes() {
+    event.currentTarget.parentElement.classList.add('noclick')
     event.currentTarget.classList.add('green')
     n = n + 1
 }
