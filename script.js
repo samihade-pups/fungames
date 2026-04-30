@@ -30,3 +30,9 @@ function showScore() {
     let score = n
     window.alert(score);
   }
+
+function secret() {
+    event.currentTarget.parentElement.classList.add('noclick')
+    event.currentTarget.classList.add('green')
+    n = n + 1.001
+}
