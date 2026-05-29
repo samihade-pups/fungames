@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+
+.tablo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+    margin-top: 80px;
+    user-select: none;
+
+}
+
+.tablo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.chislo {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.stepen {
+    margin-bottom: 0;
+    margin-left: 11px;
+    color: rgb(43, 43, 43);
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.number {
+    text-align: center;
+    font-size: 85px;
+}
